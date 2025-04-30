@@ -18,7 +18,9 @@ function App() {
   }
 
   return (
-    <h2>Tours Project Setup</h2>
+    <main>
+      <Tours />
+    </main>
   )
 
 }
