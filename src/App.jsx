@@ -1,21 +1,11 @@
 import './App.css'
-import { useState, useEffect } from 'react';
-import Loading from './components/Loading';
+import { useState } from 'react';
 import Tours from './components/Tours';
+import data from './Tours';
 
-const url = 'https://course-api.com/react-tours-project';
 
 function App() {
-  const [loading, setLoading] = useState(true);
-  const [tours, setTours] = useState([]);
-
-  if (loading) {
-    return (
-      <main>
-        <Loading />
-      </main>
-    )    
-  }
+  const [tours, setTours] = useState(data);
 
   return (
     <main>
