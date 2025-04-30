@@ -9,11 +9,18 @@ function App() {
   const [loading, setLoading] = useState(true);
   const [tours, setTours] = useState([]);
 
-  return (
-    <div>
+  if (loading) {
+    return (
+      <main>
+        <Loading />
+      </main>
+    )    
+  }
 
-    </div>
+  return (
+    <h2>Tours Project Setup</h2>
   )
+
 }
 
 export default App
