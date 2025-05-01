@@ -5,7 +5,6 @@ import data from './Tours';
 
 function App() {
   const [tours, setTours] = useState(data);
-  console.log(tours);
 
   return (
     <main>
