@@ -1,3 +1,4 @@
+import '../css/Tour.css';
 import { useState } from 'react';
 
 function Tour({id, image, info, price, name, removeTour}) {

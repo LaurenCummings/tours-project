@@ -1,0 +1,25 @@
+.single-tour {
+    width: 450px;
+    margin-bottom: 15px;    
+    font-size: 0;
+}
+
+.single-tour img {
+    width: 448px;
+    border: solid 1px black;
+    margin-bottom: 0px;
+}
+
+.single-tour footer {
+    margin-top: 0px;
+    box-shadow: 0 0 8px 2px #888;
+    font-size: 17px;
+}
+
+.tour-info {
+    padding-top: 15px;
+}
+
+.tour-info h4 {
+    margin-top: 0px;
+}

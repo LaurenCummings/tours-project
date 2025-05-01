@@ -1,8 +1,9 @@
+import '../css/Tours.css';
 import Tour from './Tour';
 
 function Tours({tours, removeTour}) {
     return (
-        <section>
+        <section className="tours">
             <div className="title">
                 <h2>Our Tours</h2>
                 <div className="underline"></div>
