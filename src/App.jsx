@@ -6,10 +6,10 @@ import data from './Tours';
 function App() {
   const [tours, setTours] = useState(data);
 
-  const removeTour = ((id) => {
+  function removeTour(id) {
     const newTours = tours.filter((tour) => tour.id !== id);
     setTours(newTours);
-  })
+  }
 
   if (tours.length === 0) {
     return (
@@ -20,7 +20,7 @@ function App() {
         </div>
       </main>
     )
-  })
+  }
 
   return (
     <main>
