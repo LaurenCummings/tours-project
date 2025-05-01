@@ -18,7 +18,7 @@ function Tour({id, image, info, price, name}) {
                 <p>
                     {readMore ? info : `${info.substring(0, 200)}...`}
                     <button onClick={toggleReadMore}>
-                        {readMore ? 'Read Less' : 'Read More'}
+                        {readMore ? 'Show Less' : 'Read More'}
                     </button>
                 </p>
                 <button className="delete-btn">Not Interested</button>
