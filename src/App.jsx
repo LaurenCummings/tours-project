@@ -11,12 +11,16 @@ function App() {
     setTours(newTours);
   }
 
+  function handleReset() {
+    setTours(data);
+  }
+
   if (tours.length === 0) {
     return (
       <main>
         <div className="title">
           <h2>No Tours Left</h2>
-          <button>Reset</button>
+          <button onClick={handleReset}>Reset</button>
         </div>
       </main>
     )
