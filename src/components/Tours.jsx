@@ -1,6 +1,6 @@
 import Tour from './Tour';
 
-function Tours({tours}) {
+function Tours({tours, removeTour}) {
     return (
         <section>
             <div className="title">
@@ -9,7 +9,7 @@ function Tours({tours}) {
             </div>
             <div>
                 {tours.map((tour) => {
-                    return <Tour key={tour.id} {...tour}></Tour>
+                    return <Tour key={tour.id} {...tour} removeTour={removeTour}></Tour>
                 })}
             </div>
         </section>
