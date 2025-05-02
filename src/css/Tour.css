@@ -45,6 +45,10 @@
     cursor: pointer;
 }
 
+.tour-info button:focus {
+    outline-style: none;
+}
+
 .delete-btn {
     width: 175px;
     display: block;
