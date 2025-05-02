@@ -29,3 +29,14 @@
     margin-left: auto;
     color: rgb(28, 118, 170);
 }
+
+.tour-info {
+    margin-top: 0;
+}
+
+.delete-btn {
+    width: 175px;
+    display: block;
+    margin: auto;
+    color: rgb(56, 2, 2);
+}
