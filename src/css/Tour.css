@@ -13,7 +13,7 @@
 .single-tour footer {
     margin-top: 0px;
     box-shadow: 0 0 8px 2px #888;
-    font-size: 17px;
+    font-size: 15px;
     padding: 20px;
 }
 
@@ -32,7 +32,8 @@
 
 .tour-info {
     margin-top: 0;
-    font-size: 15px;
+    font-size: 12px;
+    line-height: 18px;
 }
 
 .tour-info button {
