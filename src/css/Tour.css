@@ -6,6 +6,8 @@
 
 .single-tour img {
     width: 448px;
+    height: 230px;
+    object-fit: cover;
     border: solid 1px black;
     margin-bottom: 0px;
 }
