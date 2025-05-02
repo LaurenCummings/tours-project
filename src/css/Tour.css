@@ -41,13 +41,15 @@
 .tour-info button {
     color: rgb(28, 118, 170);
     border: none;
-    font-weight: bold;
+    background-color: transparent;
+    cursor: pointer;
 }
 
 .delete-btn {
     width: 175px;
     display: block;
     margin: auto;
-    color: rgb(56, 2, 2);
+    color: rgb(82, 3, 3);
     font-weight: bold;
+    cursor: pointer;
 }
