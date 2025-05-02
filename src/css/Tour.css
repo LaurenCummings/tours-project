@@ -29,7 +29,7 @@
 
 .tour-price {
     margin-left: auto;
-    color: rgb(28, 118, 170);
+    color: rgb(67, 164, 221);
 }
 
 .tour-info {
@@ -39,7 +39,7 @@
 }
 
 .tour-info button {
-    color: rgb(28, 118, 170);
+    color: rgb(67, 164, 221);
     border: none;
     background-color: transparent;
     cursor: pointer;
