@@ -14,12 +14,17 @@
     margin-top: 0px;
     box-shadow: 0 0 8px 2px #888;
     font-size: 17px;
+    padding: 20px;
 }
 
-.tour-info {
-    padding-top: 15px;
+.tour-header {
+    display: flex;
 }
 
-.tour-info h4 {
+.tour-header h4 {
     margin-top: 0px;
+}
+
+.tour-price {
+    margin-left: auto;
 }
